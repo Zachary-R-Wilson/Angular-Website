@@ -1,0 +1,12 @@
+<div class="music">
+  <h1>Music Showroom</h1>
+  <hr />
+  <div class="albums">
+    @for (album of albums; track album.id){
+      <app-album-cover [album]=album />
+    }
+  </div>
+</div>
+
+
+<router-outlet />

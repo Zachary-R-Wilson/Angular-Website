@@ -1,0 +1,17 @@
+.music{
+    text-align: center;
+}
+
+.music h1{
+    font-size: 50px;
+}
+hr{
+    width:75%;
+}
+
+.albums {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px;
+}
